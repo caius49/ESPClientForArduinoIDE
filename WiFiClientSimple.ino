@@ -21,7 +21,7 @@ void setup() {
     delay(10);
 
     // We start by connecting to a WiFi network
-    WiFiMulti.addAP("Livebox-DBED", "73F5F3F92CD22A5FCD9FA52EE7");
+    WiFiMulti.addAP("your-ssid", "your-password");
 
     Serial.println();
     Serial.println();
